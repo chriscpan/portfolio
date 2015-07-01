@@ -1,7 +1,7 @@
 body {
-  font-family: Arial;
+  font-family: Lato, Helvetica;
   margin: 0;
-  /*background-color: #eee;*/
+  background-color: #eee;
 }
 
 ul {
@@ -14,22 +14,28 @@ header {
 
 h1 {
   font-size: 44px;
+  font-weight: 400;
 }
 
 header span {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 li {
   list-style: none;
 }
 
+.top {
+  background-color: white;
+}
 .nav {
   /*outline: 1px solid black;*/
   width: 100%;
   position: fixed;
   background-color: white;
   z-index: 1;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .nav a {
@@ -49,8 +55,8 @@ li {
 }
 
 .title span {
-  font-size: 12px;
-  color: #aaa;
+  font-size: 14px;
+  color: #888;
   font-style: italic;
 }
 .item {
@@ -118,13 +124,12 @@ li {
   font-size: 36px;
   margin-bottom: 80px;
   font-weight: 700;
-  font-family: cursive;
 }
 
 .skills-container {
   margin-top: 100px;
   height: 100px;
-  background-color: #eee;
+  background-color: #ddd;
   margin-bottom: 100px;
 }
 
@@ -154,4 +159,5 @@ li {
   margin-left: 15%;
   margin-right: 15%;
   width: 70%;
+  margin-bottom: 100px;
 }
