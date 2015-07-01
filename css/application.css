@@ -131,6 +131,7 @@ li {
   height: 100px;
   background-color: #ddd;
   margin-bottom: 100px;
+  min-width: 850px;
 }
 
 .skills {
